@@ -3,6 +3,7 @@ package com.example.designpatterns;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         leakThread.start();*/
         mImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_launcher_foreground));
         ImageLoader imageLoader = new ImageLoader();
+       // imageLoader.setmImageCache(new DoubleCache());
         imageLoader.displayImage(mUrl,mImageView);
 
 
