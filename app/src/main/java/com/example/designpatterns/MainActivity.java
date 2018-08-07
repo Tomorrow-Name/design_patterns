@@ -16,7 +16,8 @@ import java.net.URL;
 
 /**
 * 添加分支
-* dev更新到master
+ * dev更新到master
+ *  18:42home
 */
 public class MainActivity extends AppCompatActivity {
     private String mUrl = "http://img.redocn.com/sheji/20160124/keaixiaoshipinsucaiPSD_5800042.jpg";
