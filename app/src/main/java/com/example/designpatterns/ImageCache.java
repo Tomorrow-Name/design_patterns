@@ -11,6 +11,6 @@ import android.util.LruCache;
  * 用于图片缓存,抽出来的父类接口,
  */
 public interface ImageCache {
-    public Bitmap get(String url);
-    public void put(String url,Bitmap bitmap);
+     Bitmap get(String url);
+     void put(String url,Bitmap bitmap);
 }
