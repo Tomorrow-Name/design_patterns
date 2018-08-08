@@ -31,6 +31,7 @@ public class ImageLoader {
     }
 
     public void displayImage(final String url, final ImageView imageView)  {
+
         Bitmap bitmap = mImageCache.get(url);
         if(bitmap==null){
             //图片没缓存,提交到线程池中下载图片
