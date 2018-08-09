@@ -4,6 +4,7 @@ package com.example.designpatterns;
  * Author:YMeng
  * Time:2018/8/8  15:24
  * This is Test
+ * 单例测试
  */
 public class Test {
     public static void main(String[] args){
