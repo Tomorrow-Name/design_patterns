@@ -32,4 +32,5 @@ dependencies {
         releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
         testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'*/
     implementation 'com.android.support:recyclerview-v7:25.3.1'
+
 }

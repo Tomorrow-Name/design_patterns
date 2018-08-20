@@ -13,8 +13,9 @@ public class Test2 {
         //Director
         Director pcDirector = new Director(builder);
         //封装构建过程，8核，内存16GB，Windows系统
-        pcDirector.construct("组装主机","AOC显示器");
+      //  pcDirector.construct("组装主机","AOC显示器");
         //构建计算器，输出信息
-        System.out.println("info : "+builder.create().toString());
+      //  System.out.println("info : "+builder.create().toString());
+        System.out.println("info : "+builder.buildBoard("组装主机123").buildDisplay("AOC显示器123").buildOS().create().toString());
     }
 }

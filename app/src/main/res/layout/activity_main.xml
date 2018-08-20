@@ -10,10 +10,10 @@
   <ImageView
         android:id="@+id/Main_Iamge"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_launcher_background" />
+        android:src="@drawable/ic_launcher_foreground" />
 
     <Button
         android:text="点击"

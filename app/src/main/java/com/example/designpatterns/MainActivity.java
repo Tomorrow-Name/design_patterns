@@ -36,16 +36,13 @@ public class MainActivity extends AppCompatActivity {
         initViews();
        /* LeakThread leakThread = new LeakThread();
         leakThread.start();*/
-        mImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_launcher_foreground));
+
         ImageLoader imageLoader = new ImageLoader();
-        ImageLoader imageLoader1 = new ImageLoader();
         // imageLoader.setmImageCache(new DoubleCache());
+        imageLoader.setmLoadingImage(R.drawable.jh);
+        imageLoader.setmLoadingFailedImage(R.drawable.icon_zwjl);
         imageLoader.displayImage(mUrl, mImageView);
-        if("你好"=="你好"){
-            Toast.makeText(this, "if", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "else", Toast.LENGTH_SHORT).show();
-        }
+
 
     }
 

@@ -9,18 +9,21 @@ package com.example.designpatterns;
 public class MacbookBuilder extends Builder {
     private Computer mComputer = new Macbook();
     @Override
-    public void buildBoard(String board) {
+    public Builder buildBoard(String board) {
         mComputer.setBoard(board);
+        return this;
     }
 
     @Override
-    public void buildDisplay(String display) {
+    public Builder buildDisplay(String display) {
         mComputer.setDisplay(display);
+        return this;
     }
 
     @Override
-    public void buildOS() {
+    public Builder buildOS() {
         mComputer.setOS();
+        return this;
     }
 
     @Override
